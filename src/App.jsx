@@ -1,5 +1,4 @@
-import React from 'react';
-import './App.css';
+var React = require('react');
 
 var App = React.createClass({
 
@@ -9,10 +8,10 @@ var App = React.createClass({
 				<div className="App-header">
 					<h2>Comentários</h2>
 				</div>
-				<p>Olá</p>
+				<span>teste</span>
 			</div>
 		);
 	}
 });
 
-export default App;
+module.exports = App;
