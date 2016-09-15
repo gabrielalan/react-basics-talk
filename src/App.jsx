@@ -1,4 +1,5 @@
 var React = require('react');
+var CommentBox = require('./CommentBox');
 
 var App = React.createClass({
 
@@ -8,7 +9,7 @@ var App = React.createClass({
 				<div className="App-header">
 					<h2>Comentários</h2>
 				</div>
-				<span>teste</span>
+				<CommentBox url="http://localhost:3001/comments.php" />
 			</div>
 		);
 	}
